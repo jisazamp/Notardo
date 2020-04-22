@@ -1,0 +1,123 @@
+*,
+*:before,
+*.after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    color: #481380;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main-nav {
+  background-color: #7F78D2;
+  padding: .7em;
+  margin-bottom: .5em;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 .5em .1em;
+}
+.main-nav a {
+  color: white;
+}
+
+.main-nav a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.main-nav .banner {
+  font-size: 1.5em;
+}
+
+
+#section {
+    height: 100vh;
+}
+
+.imgLogin, .imgRegistro {
+    margin: 2%;
+    width: 40%;
+    height: 90vh;
+}
+
+.imgRegistro img, .imgLogin img {
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+}
+.sectionLogin,.signup {
+    display: flex;
+}
+
+.forms {
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms h1 {
+    text-align: center;
+}
+.forms input[type="email"], .forms input[type="password"], .forms input[type="text"],.forms textarea {
+    color: #481380;
+    font-size: 1em;
+    margin-bottom: 2em;
+    display: block;
+    width: 100%;
+    border:none;
+    padding: 1em;
+    border-bottom: rgba(127, 120, 210, 0.5) solid 2px;
+}
+.forms input[type="email"]:focus, .forms input[type="password"]:focus {
+    border-bottom: #481380 solid 2px;
+    outline: none;
+}
+
+.forms input[type="submit"] {
+    font-weight: bold;
+    width: 30%;
+    padding: 1em;
+    background-color: #481380;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    box-shadow: #7F78D2 2.5px 2.5px 10px 0;
+}
+
+.forms .inputs {
+    width: 80%;
+}
+
+.diario .forms {
+    width: 100%;
+}
+
+.forms textarea {
+    resize: none;
+    border: rgba(127, 120, 210, 0.5) solid 2px;
+}
+
+.forms a {
+    color: #481380;
+    margin-top: 1em;
+}
+
+.botonGenerico{
+  border-radius: 25%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.campoTexto{
+  height: 100px;
+  width: 95%;
+  border-radius: 0%;
+  margin-left: 30px;
+}
